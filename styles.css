@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url('Simple Shiny.svg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+
+nav {
+    background-color: lightgrey;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-box {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 30px;
+    background-color: #333;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+    margin: 0 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.page {
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+    text-align: left;
+    margin-top: 120px;
+    width: 100%;
+}
+
+.page img {
+    margin-left: 10px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.contact-info div {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+.map-container {
+    flex: 1;
+    position: relative;
+    left: -200px;
+    top: -60px;
+}
+
+.map-container iframe {
+    width: 1000px;
+    height: 500px;
+    border: none;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 15px;
+    width: 23%;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+}
+
+.product h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+.product p {
+    color: #666;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
